@@ -280,13 +280,12 @@ img {
   height: 70px;
 }
 
-.icon-antenna {
+/*.icon-antenna {
   background-image: url(../imagis/svg/antenna.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
+}*
 .icon-clock {
   background-image: url(../imagis/svg/clock.svg);
   background-repeat: no-repeat;
@@ -306,7 +305,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}*/
+
 .peculiarities-titel {
   margin-bottom: 10px;
 
@@ -602,13 +602,14 @@ img {
 }
 
 .socials-titel {
-  margin-bottom: 20px;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-titel-color);
+  margin-bottom: 20px;
 }
 
 .socials-item:not(:last-child) {
@@ -640,6 +641,7 @@ img {
 
 .mailing-titel {
   display: block;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
